@@ -422,6 +422,7 @@ Parameters::Parameters(int argc, char** argv) {
     gVCFNoChunk = false;         // --gvcf-no-chunk sets this to true
     alleleObservationBiasFile = "";
     readAlleleObsFile = "";
+    noOutput = false;
 
     // operation parameters
     useDuplicateReads = false;      // -E --use-duplicate-reads
